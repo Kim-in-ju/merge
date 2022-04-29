@@ -1,5 +1,5 @@
 """
-WSGI config for test3333 project.
+WSGI config for ju project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'test3333.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ju.settings')
 
 application = get_wsgi_application()
